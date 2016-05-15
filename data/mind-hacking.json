@@ -1,16 +1,61 @@
 {
-  "mind-hacking" : [{
-      "id"    : 2,
-      "title" : "Mind Hacking - December 2015",
-      "body"  : "This is my first collected data of me trying to overcome mind hacking.\n## *Table*:\n| Date | CIn | Sq | Md | DE |\n|:-|:-:|:-:|:-:|:-:|\n| 02.Dec 2015 | I | I | | II |\n| 03.Dec 2015 | | I | | III |\n| 05.Dec 2015 | I | II |I | |\n| 06.Dec 2015 | I | | | |\n| 07.Dec 2015 | II | I | I | II |\n| 08.Dec 2015 | IIII | I | | II |\n| 09.Dec 2015 | | II | | |\n| 10.Dec 2015 |  |  | | II |\n| 11.Dec 2015 | III | I | | III |\n| 14.Dec 2015 | II | I | | |\n| 15.Dec 2015 | II̸II | III | | IIII |\n| 16.Dec 2015 | III | I | | II |\n| 19.Dec 2015 | II̸II | II | | II |\n| 24.Dec 2015 | I | I | | I |\n| 25.Dec 2015 | I | I | | I |\n| 26.Dec 2015 | III | II | | |\n| 30.Dec 2015 | II | I | | I |\n| 31.Dec 2015 | II | I | | I |\n",
-      "date"  : "Jan 16, 2016 18:54:30"
-    }, {
-      "id"    : 1,
-      "title" : "Mind Hacking - November 2015",
-      "body"  : "This is my first collected data of me trying to overcome mind hacking.\n## *Table*:\n| Date | CIn | Sq | Md | DE |\n|:-|:-:|:-:|:-:|:-:|\n| 18.Nov 2015 | II̸II II̸II III | II̸II | II̸II I | II̸II |\n| 19.Nov 2015 | IIII | IIII | | II̸II |\n| 20.Nov 2015 | III | I | | I |\n| 22.Nov 2015 | II̸II I | IIII | II | II |\n| 23.Nov 2015 | II̸II III | II̸II | II̸II | II̸II II̸II |\n| 24.Nov 2015 | III | III | | III |\n| 26.Nov 2015 | | II | | |\n| 27.Nov 2015 | IIII | II | I | |\n| 28.Nov 2015 | II | I | | |\n| 29.Nov 2015 | III | II | | I |\n| 30.Nov 2015 | III | I | I | |\n",
-      "date"  : "Jan 16, 2016 18:01:43"
-    }
-  ]
+  "index" : {
+    "7"  : 0,
+    "6"  : 1,
+    "5"  : 2,
+    "4"  : 3,
+    "3"  : 4,
+    "2"  : 5,
+    "1"  : 6
+  },
+  "data" : [{
+    "id"    : "7",
+    "link"  : "mind-hacking",
+    "title" : "Mai 2016",
+    "short" : "",
+    "body"  : "## *Tabelle*:\n| Date | CIn | Sq | Md | DE | DI | BT |\n|:-|:-:|:-:|:-:|:-:|:-:|:-:|\n| 08.May 2016 | II | II | | II̸II I | I | I |\n| 09.May 2016 | II | II | I | | | I |\n| 10.May 2016 | I | II | | | I | |\n| 11.May 2016 | IIII | III | I | | III | |\n| 12.May 2016 | | I | | | | I |\n| 13.May 2016 | I | | | | | |\n| 14.May 2016 | I | II | | | | |\n",
+    "date"  : "May 8, 2016 16:52:02"
+  }, {
+    "id"    : "6",
+    "link"  : "mind-hacking",
+    "title" : "April 2016",
+    "short" : "",
+    "body"  : "## *Tabelle*:\n| Date | CIn | Sq | Md | DE | Ec | DI |\n|:-|:-:|:-:|:-:|:-:|:-:|:-:|\n| 01.Apr 2016 | | | | | | I |\n| 10.Apr 2016 | | | I | | | III |\n| 11.Apr 2016 | I | I | | | | III |\n",
+    "date"  : "April 16, 2016 06:12:47"
+  }, {
+    "id"    : "5",
+    "link"  : "mind-hacking",
+    "title" : "M&auml;rz 2016",
+    "short" : "",
+    "body"  : "## *Tabelle*:\n| Date | CIn | Sq | Md | DE | Ec |\n|:-|:-:|:-:|:-:|:-:|:-:|\n| 03.Mar 2016 | II | | | II | II |\n| 11.Mar 2016 | II | | | | |\n| 15.Mar 2016 | | II | | II | III |\n",
+    "date"  : "Mar 30, 2016 16:37:42"
+  }, {
+    "id"    : "4",
+    "link"  : "mind-hacking",
+    "title" : "Februar 2016",
+    "short" : "",
+    "body"  : "## *Tabelle*:\n| Date | CIn | Sq | Md | DE | Ec |\n|:-|:-:|:-:|:-:|:-:|:-:|\n| 01.Feb 2016 | II | I | | | III |\n| 02.Feb 2016 | I | | | I | II̸II |\n| 03.Feb 2016 | IIII | | II | II | IIII |\n| 04.Feb 2016 | II | | | I | |\n| 05.Feb 2016 | III | I | I | I | II̸II II̸II II |\n| 06.Feb 2016 | I | | | I | II̸II III |\n| 07.Feb 2016 | I | I | | I | III |\n| 08.Feb 2016 | | I | I | | II̸II II̸II III |\n| 09.Feb 2016 | III | | | I | II̸II II |\n| 10.Feb 2016 | I | I | | I | II̸II IIII |\n| 10.Feb 2016 | I | I | | | III |\n| 13.Feb 2016 | I | I | | I  | II̸II |\n| 14.Feb 2016 | | I | | | IIII |\n| 15.Feb 2016 | | | | I | II |\n15.Feb 2016 | | II | | II | III |\n",
+    "date"  : "Feb 16, 2016 06:12:47"
+  }, {
+    "id"    : "3",
+    "link"  : "mind-hacking",
+    "title" : "J&auml;nner 2016",
+    "short" : "",
+    "body"  : "## *Tabelle*:\n| Date | CIn | Sq | Md | DE |\n|:-|:-:|:-:|:-:|:-:|\n| 03.Jan 2016 | II | | | III |\n| 08.Jan 2016 | III | III | | |\n| 09.Jan 2016 | I | I | | I |\n| 10.Jan 2016 | I |  | | II |\n| 11.Jan 2016 | | II | | I |\n| 18.Jan 2016 | II | I | | |\n| 19.Jan 2016 | | I | | |\n| 20.Jan 2016 | II | | | II̸II |\n| 21.Jan 2016 | II | II | | I |\n| 22.Jan 2016 | | III | | |\n| 23.Jan 2016 | III | I | | II |\n| 24.Jan 2016 | I | I | | I |\n| 25.Jan 2016 | I | II | | II |\n| 26.Jan 2016 | III | II | | I |\n| 27.Jan 2016 | I | | | II |\n| 28.Jan 2016 | II | | | |\n| 29.Jan 2016 | II | | | II |\n| 30.Jan 2016 | III | | | II |\n| 31.Jan 2016 | IIII | II | | II |\n",
+    "date"  : "Jan 27, 2016 20:29:05"
+  }, {
+    "id"    : "2",
+    "link"  : "mind-hacking",
+    "title" : "Dezember 2015",
+    "short" : "Die eigene Einheit.\n",
+    "body"  : "Auf das Unterbewusstsein vertrauen und das Bewusstsein als eigene Einheit abkapseln.\n\nDer Herzschlag ist die Antwort.\n## *Tabelle*:\n| Date | CIn | Sq | Md | DE |\n|:-|:-:|:-:|:-:|:-:|\n| 02.Dec 2015 | I | I | | II |\n| 03.Dec 2015 | | I | | III |\n| 05.Dec 2015 | I | II |I | |\n| 06.Dec 2015 | I | | | |\n| 07.Dec 2015 | II | I | I | II |\n| 08.Dec 2015 | IIII | I | | II |\n| 09.Dec 2015 | | II | | |\n| 10.Dec 2015 |  |  | | II |\n| 11.Dec 2015 | III | I | | III |\n| 14.Dec 2015 | II | I | | |\n| 15.Dec 2015 | II̸II | III | | IIII |\n| 16.Dec 2015 | III | I | | II |\n| 19.Dec 2015 | II̸II | II | | II |\n| 24.Dec 2015 | I | I | | I |\n| 25.Dec 2015 | I | I | | I |\n| 26.Dec 2015 | III | II | | |\n| 30.Dec 2015 | II | I | | I |\n| 31.Dec 2015 | II | I | | I |\n",
+    "date"  : "Jan 16, 2016 18:54:30"
+  }, {
+    "id"    : "1",
+    "link"  : "mind-hacking",
+    "title" : "November 2015",
+    "short" : "Dies sind meine ersten Aufzeichnungen, die ich gesammelt habe um Mind Hacking zu meistern.\n",
+    "body"  : "Dies sind meine ersten Aufzeichnungen, die ich gesammelt habe um Mind Hacking zu meistern.\nMeine Motivation ko \n\n> The great Russian psychologist Ivan Pavllov trained dogs by always ringing a bell before he presented them with food. Eventually he found the dogs would slobber uncontrollably as soon as he rang the bell, _even before he had presented the food_: their bodies had become \"conditioned\" to prepare for food when the bell was rung. Similarly, attention-interrupting \"tools\" like email alerts and instant messaging have conditioned our minds to expect a tiny burst of informational pleasure.<sup><a id=\"cite-note-1\" href=\"#cite-ref-1\">[1]</a></sup>\n\n## *Tabelle*:\n| Date | CIn | Sq | Md | DE |\n|:-|:-:|:-:|:-:|:-:|\n| 18.Nov 2015 | II̸II II̸II III | II̸II | II̸II I | II̸II |\n| 19.Nov 2015 | IIII | IIII | | II̸II |\n| 20.Nov 2015 | III | I | | I |\n| 22.Nov 2015 | II̸II I | IIII | II | II |\n| 23.Nov 2015 | II̸II III | II̸II | II̸II | II̸II II̸II |\n| 24.Nov 2015 | III | III | | III |\n| 26.Nov 2015 | | II | | |\n| 27.Nov 2015 | IIII | II | I | |\n| 28.Nov 2015 | II | I | | |\n| 29.Nov 2015 | III | II | | I |\n| 30.Nov 2015 | III | I | I | |\n\n## *References*:\n\n---\n1. <a id=\"cite-ref-1\" href=\"#cite-note-1\">^</a> HARGRAVE, Sir John, 2016. <a href=\"http://www.mindhacki.ng/content/your_mind_has_a_mind_of_its_own/index.html\" target=\"_blank\">_Mind Hacking: How to Change Your Mind for Good in 21 Days._ <i class=\"zmdi zmdi-open-in-new\"></i></a> 1. New York: Simon & Schuster. ISBN <a href=\"http://books.simonandschuster.com/Mind-Hacking/John-Hargrave/9781501105654\" target=\"_blank\">978-1-50111-0565-4 <i class=\"zmdi zmdi-open-in-new\"></i></a>",
+    "date"  : "Jan 16, 2016 18:01:43"
+  }]
 }
-
-
