@@ -1,0 +1,45 @@
+﻿{
+  "index" : {
+    "5"  : 0,
+    "4"  : 1,
+    "3"  : 3,
+    "2"  : 2,
+    "1"  : 4
+  },
+  "data" : [{
+    "id"    : "5",
+    "link"  : "quotes",
+    "title" : "Community identity",
+    "short" : "\"The Consciousness of community has to be kept alive through manipulation of its symbols.\" - ???\n",
+    "body"  : "> The Consciousness of community has to be kept alive through manipulation of its symbols. - ???\n",
+    "date"  : "Mar 22, 2016 03:37:27"
+  }, {
+    "id"    : "4",
+    "link"  : "quotes",
+    "title" : "Kommodifizierung",
+    "short" : "www.ciml.info\n",
+    "body"  : "In der Informationswissenschaft bedeutet Kommodifizierung die Betrachtung von Informationsobjekten als Waren, aus denen Informationsprodukte hergestellt werden k&ouml;nnen, für deren Nutzung Geb&uuml;hren erhoben und die auf Informationsm&auml;rkten gehandelt werden k&ouml;nnen; hier wird Kommodifizierung weitgehend synonym zu dem von Rainer Kuhlen geprägten Begriff der Venterisierung verwendet und kritisiert dann den „perfektionierten Vorgang der kontrollierten, privaten Aneignung von Wissen“ (Kuhlen 2002).\n",
+    "date"  : "Mar 19, 2016 18:57:45"
+  }, {
+    "id"    : "2",
+    "link"  : "quotes",
+    "title" : "Konfliktvermeidung",
+    "short" : "www.ciml.info\n",
+    "body"  : "> \"Das Ich verzichtet auf diese ihm zustehenden Funktionen, um nicht eine neuerliche Verdr&auml;ngung vornehmen zu m&uuml;ssen, um einen Konflikt mit dem Es auszuweichen.\" - Sigmund Freud (1928) Hemmung, Symptom und Angst - 1.Kapitel https://www.youtube.com/watch?v=nBPsyic8Cu8\n",
+    "date"  : "Mar 11, 2016 07:00:03"
+  }, {
+    "id"    : "3",
+    "link"  : "quotes",
+    "title" : "Epigenetics",
+    "short" : "www.ciml.info\n",
+    "body"  : "> \"Epigenetics (from Ancient Greek επί/epi = 'upon', 'over', 'above' and γενετικός/genetikos = 'genitive' > γενεά/genea = 'generation' > γεννώ/geno = 'birth to' > γένεσις/genesis = 'origin')\"\n",
+    "date"  : "Mar 17, 2016 09:59:21"
+  }, {
+    "id"    : "1",
+    "link"  : "quotes",
+    "title" : "Lerning/Change Rate",
+    "short" : "www.ciml.info\n",
+    "body"  : "> \"Change is the end result of all true learning.\" - Leo Buscaglia\n",
+    "date"  : "Feb 06, 2016 02:00:21"
+  }]
+}

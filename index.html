@@ -1,11 +1,11 @@
 <!DOCTYPE  html>
 <html>
 <head>
-    <title>Manic</title>
+    <title>MrIsaacs</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta name="author" content="Ivan Ilic"/>
-    <meta name="description" content="Manic"/>
+    <meta name="description" content="MrIsaacs - Blog"/>
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles/normalize.css">
@@ -15,7 +15,7 @@
     <!-- CSS -->
 
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="https://gravatar.com/avatar/564203718b24c4a02e62c5b624e4d58b.jpg?s=32&r=g">
     <!-- FAVICON -->
 
     <!-- SCRIPT -->
@@ -74,12 +74,8 @@
                         // todo: use addAttribute
                         content = '<div class="one-third column">' +
                                       '<a class="avatar-wrapper">' +
-                                          '<span class="integral">' +
-                                              '∫' +
-                                          '</span>' +
-                                          '<span class="initial">' +
-                                              'M' +
-                                          '</span>' +
+                                          '<img class="avatar" alt="MrIsaacs Avatar" src="https://gravatar.com/avatar/564203718b24c4a02e62c5b624e4d58b.jpg?s=250&r=g">' +
+                                          '<!-- p class="info">posted 3 hours ago in general</p -->' +
                                       '</a>' +
                                   '</div>';
                         //content += '<h3><a href="#">Text mit Klickeffekt</a></h3>';
@@ -233,29 +229,43 @@
             });
 
             router.on({
-                'changelog/list' : function () {
-                    jsonRequest.options.url = './data/changelog.json';
+                'mind-hacking/list': function () {
+                    jsonRequest.options.url = './data/mind-hacking.json';
                     jsonRequest.setHeader('M-Request-Type', 'List');
-                    jsonRequest.setHeader('M-Request-ID', 1);
-                    // console.log(jsonRequest);
                     jsonRequest.get();
-                    console.log('changlog-list');
+                    console.log('mind-hacking-list');
                 },
-                'changelog/:id': function (params) {
-                    jsonRequest.options.url = './data/changelog.json';
+                'mind-hacking/:id': function (params) {
+                    jsonRequest.options.url = './data/mind-hacking.json';
                     jsonRequest.setHeader('M-Request-Type', 'Info');
                     jsonRequest.setHeader('M-Request-ID', params.id);
-                    // console.log(jsonRequest);
                     jsonRequest.get();
-                    console.log('article-');
+                    console.log('mind-hacking-' + params.id);
                 },
-                'changelog' : function () {
-                    jsonRequest.options.url = './data/changelog.json';
-                    jsonRequest.setHeader('M-Request-Type', 'Info');
-                    jsonRequest.setHeader('M-Request-ID', 1);
-                    // console.log(jsonRequest);
+                'memo/list': function () {
+                    jsonRequest.options.url = './data/memo.json';
+                    jsonRequest.setHeader('M-Request-Type', 'List');
                     jsonRequest.get();
-                    console.log('changlog');
+                    console.log('memo-list');
+                },
+                'memo/:id' : function (params) {
+                    jsonRequest.options.url = './data/memo.json';
+                    jsonRequest.setHeader('M-Request-Type', 'Info');
+                    jsonRequest.setHeader('M-Request-Type', params.id);
+                    jsonRequest.get();
+                    console.log('memo-' + params.id);
+                },
+                'quotes/list' : function () {
+                    jsonRequest.options.url = './data/quotes.json';
+                    jsonRequest.setHeader('M-Request-Type', 'List');
+                    jsonRequest.get();
+                    console.log('quotes-list');
+                },
+                'quotes/:id' : function (params) {
+                    jsonRequest.options.url = './data/quotes.json';
+                    jsonRequest.setHeader('M-Request-Type', 'Info');
+                    jsonRequest.get();
+                    console.log('quotes-' + params.id);
                 },
                 'credits' : function () {
                     jsonRequest.options.url = './data/credits.json';
@@ -279,6 +289,16 @@
             });
         });
     </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-39025849-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
     <!-- SCRIPT -->
 </head>
 <body>
@@ -286,15 +306,17 @@
     <div class="container">
         <div class="three columns">
             <div class="logo">
-                <p>Manic</p>
+                <p>MrIsaacs</p>
             </div>
         </div>
         <div class="nine columns">
             <div class="navbar-spacer"></div>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a data-navigo data-id="1" data-link="home" href="home">home</a></li>
-                    <li><a data-navigo data-link="changelog" href="changelog/list">changelog</a></li>
+                    <li><a data-navigo data-id="1" data-link="home" href="home">startseite</a></li>
+                    <li><a data-navigo data-link="memo" href="memo/list">memo</a></li>
+                    <li><a data-navigo data-link="quotes" href="quotes/list">zitate</a></li>
+                    <li><a data-navigo data-link="mind-hacking" href="mind-hacking/list">mind hacking</a></li>
                     <li><a data-navigo data-id="1" data-link="credits" href="credits">credits</a></li>
                 </ul>
             </nav>
@@ -314,8 +336,8 @@
         <div id="detail" class="row section content">
             <div class="one-third column">
                 <a class="avatar-wrapper">
-                    <span class="integral">&int;</span>
-                    <span class="initial">M</span>
+                    <img class="avatar" alt="MrIsaacs Avatar" src="https://gravatar.com/avatar/564203718b24c4a02e62c5b624e4d58b.jpg?s=250&r=g">
+                    <!-- p class="info">posted 3 hours ago in general</p -->
                 </a>
             </div>
             <div class="main-article two-thirds column">
