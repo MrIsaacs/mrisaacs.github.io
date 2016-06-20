@@ -28,6 +28,7 @@
     <script src="./js/navigo.min.js"></script>
     <script type="text/javascript">
         window.addEvent('domready', function () {
+            Locale.use('de-DE');
             new docknav();
 
             var router = new Navigo(null, true);
@@ -74,7 +75,7 @@
                         // todo: use addAttribute
                         content = '<div class="one-third column">' +
                                       '<a class="avatar-wrapper">' +
-                                          '<img class="avatar" alt="MrIsaacs Avatar" src="https://gravatar.com/avatar/564203718b24c4a02e62c5b624e4d58b.jpg?s=250&r=g">' +
+                                          '<img class="avatar" alt="MrIsaacs Avatar" src="./img/564203718b24c4a02e62c5b624e4d58b.png">' +
                                           '<!-- p class="info">posted 3 hours ago in general</p -->' +
                                       '</a>' +
                                   '</div>';
@@ -106,7 +107,15 @@
                         }
 
                         $('main-title').set('text', article.title);
-                        $('main-date').set('text', new Date(article.date).timeDiffInWords());
+                        if( Object.prototype.toString.call( article.date ) === '[object Array]' ) {
+                            $('main-date').set('html', (
+                                    new Date(article.date[0]).timeDiffInWords() +
+                                    ", <strong>update:</strong> " +
+                                    new Date(article.date[1]).timeDiffInWords()
+                            ));
+                        } else if ( typeof article.date === 'string' ) {
+                            $('main-date').set('text', new Date(article.date).timeDiffInWords());
+                        }
                         $('main-date').set('title', article.date);
 
                         new MooDown('main-body', {
@@ -134,7 +143,7 @@
                                 }
 
                                 // todo: use addAttribute
-                                content += '<h3><a data-id="';
+                                content += '<h3><a data-navigo data-id="';
                                 content += response.data[index].id;
                                 content += '" href="';
                                 content += response.data[index].link + '/' + response.data[index].id;
@@ -251,7 +260,7 @@
                 'memo/:id' : function (params) {
                     jsonRequest.options.url = './data/memo.json';
                     jsonRequest.setHeader('M-Request-Type', 'Info');
-                    jsonRequest.setHeader('M-Request-Type', params.id);
+                    jsonRequest.setHeader('M-Request-ID', params.id);
                     jsonRequest.get();
                     console.log('memo-' + params.id);
                 },
@@ -264,6 +273,7 @@
                 'quotes/:id' : function (params) {
                     jsonRequest.options.url = './data/quotes.json';
                     jsonRequest.setHeader('M-Request-Type', 'Info');
+                    jsonRequest.setHeader('M-Request-ID', params.id);
                     jsonRequest.get();
                     console.log('quotes-' + params.id);
                 },
@@ -336,7 +346,7 @@
         <div id="detail" class="row section content">
             <div class="one-third column">
                 <a class="avatar-wrapper">
-                    <img class="avatar" alt="MrIsaacs Avatar" src="https://gravatar.com/avatar/564203718b24c4a02e62c5b624e4d58b.jpg?s=250&r=g">
+                    <img class="avatar" alt="MrIsaacs Avatar" src="./img/564203718b24c4a02e62c5b624e4d58b.png">
                     <!-- p class="info">posted 3 hours ago in general</p -->
                 </a>
             </div>

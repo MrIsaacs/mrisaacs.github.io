@@ -14,6 +14,7 @@ var MooDown = new Class ({
         var converter = new showdown.Converter({
             'headerLevelStart'  : '2',
             tables              : true,
+            strikethrough       : true,
             simplifiedAutoLink  : this.options.simplifiedAutoLink
         });
         var html = converter.makeHtml(text);
