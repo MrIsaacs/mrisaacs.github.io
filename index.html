@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/skeleton.css">
     <link rel="stylesheet" href="styles/custom.css">
     <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/material-design-iconic-font.min.css">
     <!-- CSS -->
 
     <!-- FAVICON -->
@@ -19,9 +20,11 @@
     <!-- FAVICON -->
 
     <!-- SCRIPT -->
-    <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.js"></script>
+    <!-- script src="https://ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.js"></script //-->
+    <script src="./js/mootools.js"></script>
     <script src="./js/mootools-more.js"></script>
-    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.3.0/dist/showdown.min.js"></script>
+    <!-- script src="https://cdn.rawgit.com/showdownjs/showdown/1.3.0/dist/showdown.min.js"></script -->
+    <script src="./js/showdown.js"></script>
     <script src="./js/moodown.js"></script>
     <script src="./js/mooclick.js"></script>
     <script src="./js/app.js"></script>
@@ -57,6 +60,9 @@
                         if ($('detail')) {
                             $('detail').destroy();
                         }
+                        if ($('list')) {
+                            $('list').destroy();
+                        }
                     }
                 },
                 onSuccess: function (response) {
@@ -76,8 +82,15 @@
                         content = '<div class="one-third column">' +
                                       '<a class="avatar-wrapper">' +
                                           '<img class="avatar" alt="MrIsaacs Avatar" src="./img/564203718b24c4a02e62c5b624e4d58b.png">' +
-                                          '<!-- p class="info">posted 3 hours ago in general</p -->' +
                                       '</a>' +
+                                      '<div id="social-links">' +
+                                          '<ul class="zmdi-hc-ul">' +
+                                              '<li><a href="https://github.com/MrIsaacs/" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw zmdi-hc-4x"></i></a></li>' +
+                                              '<li><a href="https://www.facebook.com/MrIsaacs-132891053467179/" target="_blank"><i class="zmdi zmdi-facebook zmdi-hc-fw zmdi-hc-4x"></i></a>' +
+                                              '<li><a href="https://twitter.com/diamantberg/" target="_blank"><i class="zmdi zmdi-twitter zmdi-hc-fw zmdi-hc-4x"></i></a></li>' +
+                                              '<li><a href="https://soundcloud.com/mr-isaacs/" target="_blank"><i class="zmdi zmdi-soundcloud zmdi-hc-fw zmdi-hc-4x"></i></a></li>' +
+                                          '</ul>' +
+                                      '</div>' +
                                   '</div>';
                         //content += '<h3><a href="#">Text mit Klickeffekt</a></h3>';
                         //content += '<p>Hallo Welt Text: Lorem ipsum vielleicht?</p>';
@@ -349,6 +362,33 @@
                     <img class="avatar" alt="MrIsaacs Avatar" src="./img/564203718b24c4a02e62c5b624e4d58b.png">
                     <!-- p class="info">posted 3 hours ago in general</p -->
                 </a>
+                <div id="social-links">
+                    <ul class="zmdi-hc-ul">
+                        <li>
+                            <a href="https://github.com/MrIsaacs/" target="_blank">
+                                <i class="zmdi zmdi-github zmdi-hc-fw zmdi-hc-4x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/MrIsaacs-132891053467179/" target="_blank">
+                                <i class="zmdi zmdi-facebook zmdi-hc-fw zmdi-hc-4x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/diamantberg/" target="_blank">
+                                <i class="zmdi zmdi-twitter zmdi-hc-fw zmdi-hc-4x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://soundcloud.com/mr-isaacs/" target="_blank">
+                                <i class="zmdi zmdi-soundcloud zmdi-hc-fw zmdi-hc-4x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+
             </div>
             <div class="main-article two-thirds column">
                 <div class="article-layer">
@@ -379,37 +419,13 @@
                 </div>
             </div>
         </div>
-        <!-- div id="related" class="row section">
-            <div class="short-article one-third column">
-                <h3><a href="#">Ut enim risus rhoncus</a></h3>
-                <p>Quisque consectetur odio ut sem semper commodo. Maecenas iaculis leo a ligula euismod condimentum.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut enim risus,
-                    rhoncus.</p>
-                <p>¬ <a href="#">read more</a></p>
-            </div>
-            <div class="short-article one-third column">
-                <h3><a href="#">Maecenas iaculis leo</a></h3>
-                <p>Quisque consectetur odio ut sem semper commodo. Maecenas iaculis leo a ligula euismod condimentum.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut enim risus,
-                    rhoncus.</p>
-                <p>¬ <a href="#">read more</a></p>
-            </div>
-            <div class="short-article one-third column last">
-                <h3><a href="#">Quisque consectetur odio</a></h3>
-                <p>Quisque consectetur odio ut sem semper commodo. Maecenas iaculis leo a ligula euismod condimentum.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut enim risus,
-                    rhoncus.</p>
-                <p>¬ <a href="#">read more</a></p>
-            </div>
-        </div -->
     </div>
     <!-- CONTAINER -->
 </div>
 <div id="footer">
     <div class="container">
         <div class="row section">
-            <p>Copyright &copy; <em><a href="http://mrisaacs.org/" title="MrIsaacs - Blog">MrIsaacs</a></em>
-            </p>
+            <p>Copyright &copy; <em><a href="http://mrisaacs.org/" title="MrIsaacs - Blog">MrIsaacs</a></em></p>
         </div>
     </div>
 </div>
