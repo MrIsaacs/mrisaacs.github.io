@@ -23,8 +23,8 @@
     "link"  : "mind-hacking",
     "title" : "M&auml;rz 2017",
     "short" : "",
-    "body"  : "## *Tabelle*:\n| Date | CI | BF | Md | DE | DI | BT |\n|:-|:-:|:-:|:-:|:-:|:-:|:-:|\n| 02.Mar 2017 | I | I | | I | | |\n| 03.Mar 2017 | I | | | I | | |\n| 14.Mar 2017 | III | I | II | I | II | |\n| 15.Mar 2017 | II | I | | II | I | |\n| 16.Mar 2017 | II | I | ~~IIII~~ I | I | I | |\n| 20.Mar 2017 | II | I | I | II | IIII | |\n| 21.Mar 2017 | II | II | | I | II | |\n| 22.Mar 2017 | II | I | | III | | |\n| 23.Mar 2017 | II | | I | II | | |\n| 24.Mar 2017 | I | | | II | II | |\n| 25.Mar 2017 | I | II | | | | |\n| 26.Mar 2017 | I | II | II | | | |\n| 27.Mar 2017 | II | II | II | I | | |\n| 28.Mar 2017 | II | I | I | II | III | |\n| 28.Mar 2017 | III | I | | | | |\n",
-    "date"  : ["2017-03-02T20:24:55+01:00", "2017-03-28T05:48:31+02:00"]
+    "body"  : "## *Tabelle*:\n| Date | CI | BF | Md | DE | DI | BT |\n|:-|:-:|:-:|:-:|:-:|:-:|:-:|\n| 02.Mar 2017 | I | I | | I | | |\n| 03.Mar 2017 | I | | | I | | |\n| 14.Mar 2017 | III | I | II | I | II | |\n| 15.Mar 2017 | II | I | | II | I | |\n| 16.Mar 2017 | II | I | ~~IIII~~ I | I | I | |\n| 20.Mar 2017 | II | I | I | II | IIII | |\n| 21.Mar 2017 | II | II | | I | II | |\n| 22.Mar 2017 | II | I | | III | | |\n| 23.Mar 2017 | II | | I | II | | |\n| 24.Mar 2017 | I | | | II | II | |\n| 25.Mar 2017 | I | II | | | | |\n| 26.Mar 2017 | I | II | II | | | |\n| 27.Mar 2017 | II | II | II | I | | |\n| 28.Mar 2017 | II | I | I | II | III | |\n| 29.Mar 2017 | III | I | | | | |\n",
+    "date"  : ["2017-03-02T20:24:55+01:00", "2017-03-29T13:01:31+02:00"]
   }, {
     "id"    : "16",
     "link"  : "mind-hacking",
