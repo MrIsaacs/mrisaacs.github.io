@@ -87,7 +87,7 @@
                                       '<div id="social-links">' +
                                           '<ul class="zmdi-hc-ul">' +
                                               '<li><a href="https://github.com/MrIsaacs/" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw zmdi-hc-4x"></i></a></li>' +
-                                              '<li><a href="https://www.facebook.com/MrIsaacs-132891053467179/" target="_blank"><i class="zmdi zmdi-facebook zmdi-hc-fw zmdi-hc-4x"></i></a>' +
+                                              '<li><a href="https://www.linkedin.com/in/ivan-ili%C4%B7-465b9a22/" target="_blank"><i class="zmdi zmdi-linkedin zmdi-hc-fw zmdi-hc-4x"></i></a>' +
                                               '<li><a href="https://twitter.com/diamantberg/" target="_blank"><i class="zmdi zmdi-twitter zmdi-hc-fw zmdi-hc-4x"></i></a></li>' +
                                               '<li><a href="https://soundcloud.com/mr-isaacs/" target="_blank"><i class="zmdi zmdi-soundcloud zmdi-hc-fw zmdi-hc-4x"></i></a></li>' +
                                           '</ul>' +
@@ -132,6 +132,9 @@
                         }
                         $('main-date').set('title', article.date);
 
+                        new MooDown('main-title', {
+                            markdown    : article.title
+                        });
                         new MooDown('main-body', {
                             markdown    : article.body
                         });
@@ -278,6 +281,13 @@
                     jsonRequest.get();
                     console.log('memo-' + params.id);
                 },
+                'projects' : function () {
+                    jsonRequest.options.url = './data/projects.json';
+                    jsonRequest.setHeader('M-Request-Type', 'Info');
+                    jsonRequest.setHeader('M-Request-ID', 1);
+                    jsonRequest.get();
+                    console.log('projects');
+                },
                 'quotes/list' : function () {
                     jsonRequest.options.url = './data/quotes.json';
                     jsonRequest.setHeader('M-Request-Type', 'List');
@@ -340,8 +350,7 @@
                     <li><a data-navigo data-id="1" data-link="home" href="home">startseite</a></li>
                     <li><a data-navigo data-link="memo" href="memo/list">memo</a></li>
                     <li><a data-navigo data-link="quotes" href="quotes/list">zitate</a></li>
-                    <li><a data-navigo data-link="mind-hacking" href="mind-hacking/list">mind hacking</a></li>
-                    <li><a data-navigo data-id="1" data-link="credits" href="credits">credits</a></li>
+                    <li><a data-navigo data-id="1" data-link="projects" href="projects">projekte</a></li>
                 </ul>
             </nav>
         </div>
@@ -372,8 +381,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/MrIsaacs-132891053467179/" target="_blank">
-                                <i class="zmdi zmdi-facebook zmdi-hc-fw zmdi-hc-4x"></i>
+                            <a href="https://www.linkedin.com/in/ivan-ili%C4%B7-465b9a22/" target="_blank">
+                                <i class="zmdi zmdi-linkedin zmdi-hc-fw zmdi-hc-4x"></i>
                             </a>
                         </li>
                         <li>
