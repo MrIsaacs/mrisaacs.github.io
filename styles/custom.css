@@ -174,8 +174,11 @@ body.has-docked-nav #header nav.navbar ul li a {
   margin: 3rem 0; }
 .avatar-wrapper {
   display: block;
+  margin-bottom: 1rem;
   position: relative;
-  overflow: hidden; min-width: 239.2px; min-height: 239.2px; }
+  overflow: hidden;
+  min-width: 239.2px;
+  min-height: 239.2px; }
 .avatar {
   width: 100%;
   height: auto;
@@ -183,18 +186,34 @@ body.has-docked-nav #header nav.navbar ul li a {
 .info {
   font-size: 1.15rem; }
 
-#social-links ul {
+#social-links-footer {
+  display: none; }
+#social-links ul,
+#social-links-footer ul {
   margin: 10px;
   padding: 0;
   list-style-type: none;
   text-align: center; }
-#social-links ul li { display: inline; }
-#social-links ul li a {
+#social-links ul li,
+#social-links-footer ul li {
+  display: block;
+  float: left; }
+#social-links ul li span,
+#social-links-footer ul li span {
+  position: relative;
+  top: -.5rem;
+  padding-left: 15px;
+  border-left: 1px solid #C5C5C5;
+  font-size: 1.25rem; }
+#social-links ul li a,
+#social-links-footer ul li a {
   color: #777;
   text-decoration: none; }
-#social-links ul li a:hover {
+#social-links ul li a:hover,
+#social-links-footer ul li a:hover {
   color: #8f0000; }
-#social-links ul li a i {
+#social-links ul li a i,
+#social-links-footer ul li a i {
   padding: 5px }
 
 /* Article layer */
@@ -316,8 +335,10 @@ div.item {
     width: 20%; }
   .main-article {
     padding-left: 0px; }
-  #social-links {
+  #profile {
     display: none; }
+  #social-links-footer {
+    display: block; }
   h1, #main-date {
     padding-left: 65px; }
   .shimmer {
@@ -395,8 +416,10 @@ div.item {
     text-align: center; }
   #header nav ul li:last-child a {
     padding: 0.75em 2em; }
-  #social-links {
+  #profile {
     display: none; }
+  #social-links-footer {
+    display: block; }
   .container .nine.columns {
     display: none;
     width: 100%;
@@ -428,8 +451,12 @@ div.item {
     position: absolute; }
   .avatar {
     width: 20%; }
-  #social-links {
+  #profile {
     display: none; }
+  #social-links-footer {
+    position: relative;
+    top: -.5rem;
+    display: block; }
   .main-article {
     padding-left: 0px;
     margin-left: 0px; }
