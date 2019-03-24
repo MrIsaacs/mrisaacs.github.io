@@ -529,9 +529,12 @@ div.item {
 /* Printformat */
 @media print and (min-width: 570px) {
   #header,
-  #main-title,
   #main-date {
     display: none; }
+  #main-title {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 15px 10px; }
   .avatar.bw {
     opacity: 0; }
   .two-thirds {
