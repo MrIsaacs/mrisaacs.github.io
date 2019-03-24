@@ -29,6 +29,7 @@ h1 {
   margin-bottom: 0;
   font-size: 2.56rem; }
 h2 {
+  padding-left: 15px;
   font-size: 2.14rem; }
 h3 {
   font-size: 1.8rem; }
@@ -189,32 +190,50 @@ body.has-docked-nav #header nav.navbar ul li a {
 #social-links-footer {
   display: none; }
 #social-links ul,
+#languages ul,
 #social-links-footer ul {
   margin: 10px;
   padding: 0;
-  list-style-type: none;
-  text-align: center; }
+  overflow: hidden;
+  list-style-type: none; }
+#languages ul {
+  margin-top: 2.5rem; }
 #social-links ul li,
+#languages ul li,
 #social-links-footer ul li {
   display: block;
   float: left; }
 #social-links ul li span,
+#languages ul li span,
 #social-links-footer ul li span {
   position: relative;
   top: -.5rem;
   padding-left: 15px;
   border-left: 1px solid #C5C5C5;
   font-size: 1.25rem; }
+#languages ul li span {
+  padding-left: 13px;
+  border: none;
+  float: left; }
 #social-links ul li a,
+#languages ul li a,
 #social-links-footer ul li a {
   color: #777;
   text-decoration: none; }
 #social-links ul li a:hover,
+#languages ul li a:hover,
 #social-links-footer ul li a:hover {
   color: #8f0000; }
 #social-links ul li a i,
 #social-links-footer ul li a i {
   padding: 5px }
+#languages ul li a {
+  /* padding: 0;*/ }
+#languages ul li {
+  width: 100%;
+  line-height: 2.5rem; }
+.know-how {
+  float: right; }
 
 /* Article layer */
 .shimmer-layer {
@@ -506,6 +525,18 @@ div.item {
   /* Re-overiding the width 100% declaration to match size of % based container */
   .has-docked-nav .navbar > .container {
     width: 80%; }
+
+/* Printformat */
+@media print and (min-width: 570px) {
+  #header,
+  #main-title,
+  #main-date {
+    display: none; }
+  .avatar.bw {
+    opacity: 0; }
+  .two-thirds {
+    width: 65.3333333333%; }
+}
 
   /* Popover */
   .popover.open {
