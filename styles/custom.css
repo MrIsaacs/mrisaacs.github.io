@@ -561,8 +561,8 @@ div.item {
     opacity: 0; }
   .two-thirds {
     width: 65.3333333333%; }
-  .timeline div:after {
-    page-break-after: always; }
+  h2#ausbildung {
+    page-break-before: always; }
 }
 
   /* Popover */
