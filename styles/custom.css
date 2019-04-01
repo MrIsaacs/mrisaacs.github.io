@@ -240,6 +240,8 @@ body.has-docked-nav #header nav.navbar ul li a {
   line-height: 2.5rem; }
 li.icon {
   width: 100%; }
+li.icon:hover {
+  color: #8f0000; }
 li.icon:before {
   font: normal normal normal 3.2rem/1 'Material-Design-Iconic-Font';
   padding: 5px;
