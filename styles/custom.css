@@ -256,6 +256,8 @@ li.icon.twitter:before {
   content: '\f360'; }
 li.icon.linkedin:before {
   content: '\f3f8'; }
+li.icon.github:before {
+  content: '\f3f6'; }
 .know-how {
   float: right; }
 
