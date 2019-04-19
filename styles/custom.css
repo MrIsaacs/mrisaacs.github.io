@@ -203,7 +203,6 @@ body.has-docked-nav #header nav.navbar ul li a {
 #social-links ul li,
 #languages ul li,
 #social-links-footer ul li {
-  display: block;
   float: left; }
 #social-links ul li {
   padding-top: 5px; }
@@ -553,6 +552,9 @@ div.item {
 
 /* Printformat */
 @media print and (min-width: 570px) {
+  @page {
+    margin: 0; }
+  body { margin:  1.6cm; }
   #header,
   #main-date {
     display: none; }
@@ -560,12 +562,22 @@ div.item {
     margin-bottom: 15px;
     border-bottom: 1px solid #ddd;
     padding: 0 0 15px 10px; }
+  .page-break {
+    page-break-after: always; }
   .avatar.bw {
     opacity: 0; }
-  .two-thirds {
+  .github,
+  .linkedin {
+    display: none; }
+  h2#ausbildung {
+    margin-top: 1.6cm; }
+  #footer {
+    counter-increment: page;
+    content: "Page " counter(page); }
+/*  .two-thirds {
     width: 65.3333333333%; }
   h2#ausbildung {
-    page-break-before: always; }
+    page-break-before: always; } */
 }
 
   /* Popover */
