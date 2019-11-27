@@ -1,25 +1,33 @@
 ﻿{
   "index" : {
-    "12" : 0,
-    "11" : 1,
-    "10" : 2,
-    "9"  : 3,
-    "8"  : 5,
-    "7"  : 4,
-    "6"  : 6,
-    "5"  : 7,
-    "4"  : 8,
-    "3"  : 10,
-    "2"  : 9,
-    "1"  : 11
+    "13" : 0,
+    "12" : 1,
+    "11" : 2,
+    "10" : 3,
+    "9"  : 4,
+    "8"  : 6,
+    "7"  : 5,
+    "6"  : 7,
+    "5"  : 8,
+    "4"  : 9,
+    "3"  : 11,
+    "2"  : 10,
+    "1"  : 12
   },
   "data" : [{
+    "id"    : "13",
+    "link"  : "quotes",
+    "title" : "Luis Morales de la Cruz im Interview",
+    "short" : "Man muss viel Farbe verbrauchen, um seine eigene Mischung zu finden.",
+    "body"  : "\"Man muss viel Farbe verbrauchen, um seine eigene Mischung zu finden.\"\n\n## *Referenz*:\n\n---\n LEHAR, Matthias (2019). Luis Morales de la Cruz im Interview. In: Delay Magazine [online]. 27.10.2019 [Zugriff am 27.11.2019], Verfügbar unter: <a href=\"https://www.delaymagazine.at/luis-morales-de-la-cruz/\">https://www.delaymagazine.at/luis-morales-de-la-cruz/</a>\n",
+    "date"  : "2019-11-27T23:01:34+01:00"
+  }, {
     "id"    : "12",
     "link"  : "quotes",
     "title" : "Gert Scobel &uuml;ber Intelligenz",
     "short" : "Immer mal wieder geht es im deutschen Fernsehen um das Gehirn. Doch selten so regelmäßig und geistreich, wie in der...",
-    "body"  : "\"...das Wissenschaftlern selber h&auml;ufig nicht klar ist, wie sie Begriffe eigentlich verwenden. Also z.B. ist der Begriff der Komplexit&auml;t auf der Ebene der Signalfunktion von Zellen ein Anderer als der Begriff der Komplexit&auml;t im Sinne von Selbstorganisation von verschiedenen Gehirnarealen. Dem liegt einfach ein verschiedener Begriff von Komplexit&auml;t zugrunde. Und h&auml;ufig ist Wissenschaftlern gar nicht klar dass sie zwar das selbe Wort verwenden aber die Bedeutung dieses Wortes im jeweiligen Kontext eine Andere ist. Plus die eigene Perspektive wird nat&uuml;rlich tendenziell verabsolutiert. Das hei&szlig;t wenn man genetisch jetzt gigantische Fortschritte macht und meint jetzt das Gehirn besser verstehen zu k&ouml;nnen, was vielleicht auf der genetischen Ebene tats&auml;chlich der Fall ist, hei&szlig;t das ja noch lange nicht dass ich das Gehirn in der Interaktion mit der Umwelt oder mit anderen Menschen besser verstanden habe.\"\n\n## *Referenz*:\n\n---\nSCOBEL, Gert, 2014. Gert Scobel &uuml;ber Intelligenz. Interview durch Arvid LEYH. In: _dasGehirn_ [online]. 09.04.2014 [Zugriff am: 28.07.2016]. Verf&uuml;gbar unter: <a href=\"http://bit.ly/2nH00Z7\" target=\"_blank\">https://www.dasgehirn.info/denken/intelligenz/gert-scobel-ueber-intelligenz-2166/ <i class=\"zmdi zmdi-open-in-new\"></i></a>\n",
-    "date"  : ["2016-07-28T15:44:02+02:00", "2017-03-28T09:42:29+02:00"]
+    "body"  : "\"...das Wissenschaftlern selber h&auml;ufig nicht klar ist, wie sie Begriffe eigentlich verwenden. Also z.B. ist der Begriff der Komplexit&auml;t auf der Ebene der Signalfunktion von Zellen ein Anderer als der Begriff der Komplexit&auml;t im Sinne von Selbstorganisation von verschiedenen Gehirnarealen. Dem liegt einfach ein verschiedener Begriff von Komplexit&auml;t zugrunde. Und h&auml;ufig ist Wissenschaftlern gar nicht klar dass sie zwar das selbe Wort verwenden aber die Bedeutung dieses Wortes im jeweiligen Kontext eine Andere ist. Plus die eigene Perspektive wird nat&uuml;rlich tendenziell verabsolutiert. Das hei&szlig;t wenn man genetisch jetzt gigantische Fortschritte macht und meint jetzt das Gehirn besser verstehen zu k&ouml;nnen, was vielleicht auf der genetischen Ebene tats&auml;chlich der Fall ist, hei&szlig;t das ja noch lange nicht dass ich das Gehirn in der Interaktion mit der Umwelt oder mit anderen Menschen besser verstanden habe.\"\n\n## *Referenz*:\n\n---\nLEYH, Arvid, 2014. Gert Scobel &uuml;ber Intelligenz. In: _dasGehirn_ [online]. 09.04.2014 [Zugriff am: 28.07.2016]. Verf&uuml;gbar unter: <a href=\"http://bit.ly/2nH00Z7\" target=\"_blank\">https://www.dasgehirn.info/denken/intelligenz/gert-scobel-ueber-intelligenz-2166/ <i class=\"zmdi zmdi-open-in-new\"></i></a>\n",
+    "date"  : ["2016-07-28T15:44:02+02:00", "2019-11-28T00:11:59+01:00"]
   }, {
     "id"    : "11",
     "link"  : "quotes",
