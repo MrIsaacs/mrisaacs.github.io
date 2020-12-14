@@ -1,37 +1,66 @@
 ﻿{
-  "index" : {
-    "8"  : 0,
-    "5"  : 1,
-    "2"  : 2,
-    "1"  : 3
+  "index": {
+    "9": 0,
+    "8": 1,
+    "5": 2,
+    "2": 3,
+    "1": 4
   },
-  "data" : [{
-    "id"    : "8",
-    "link"  : "memo",
-    "title" : "Erfolgssinn",
-    "short" : "Nicht nur die Quantität ist ein Faktor der Erfolgsbemessung, sondern auch die Qualität. Steigt...",
-    "body"  : "Nicht nur die Quantität ist ein Faktor der Erfolgsbemessung, sondern auch die Qualität. Steigt die Quantität bei gleichbleibender Qualität so ist der Erfolg demensprechend geringer zu bemessen. Jedes System wird fortschreitend komplexer. Hinkt einer der Q-Faktoren bei steigender Komplexität nach, so geht es einher mit dem subjektiven Gefühl des sinkenden Erfolgs.\n",
-    "date"  : ["2016-12-16T20:26:35+01:00", "2017-03-29T04:28:51+02:00"]
-  }, {
-    "id"    : "5",
-    "link"  : "memo",
-    "title" : "F&uuml;r das Gute k&auml;mpfen",
-    "short" : "Gl&auml;ubige, die Streit suchen und gegen die Natur kämpfen, dürfen sich auch religiös nennen...",
-    "body"  : "_Gl&auml;ubige_, die Streit suchen und gegen die Natur kämpfen, dürfen sich religiös nennen, ...ja. Weil sie den Teufel an die Wand malen. Denn wo es keinen Teufel gibt, existiert auch kein Gott. Es muss der Teufel an die Wand gemalt werden, damit geglaubt wird für das Gute zu kämpfen. Die Natur wird es aber zurückzahlen, so wie bei den Dummenheiten, die die Menscheit schon vor unserer Zeit geleistet hat. Und sie werden wieder in der Minderheit landen.\n\nWorunter sie eigentlich leiden ist der Mangel an Perspektiven, weil sie nicht verstehen. So wurden sie großgezogen, für Unwissen und gegen Wissen zu kämpfen um Dummheit zu verbreiten. Verstehen müssen sie nicht, weil sie es nicht können. Deshalb macht es auch keinen Sinn darüber zu streiten dass sie sich mit der Materie, hier Wissensaneignung gemeint, auseinandersetzen sollten.\n\nViel glück bei dem Kampf. Es ist EUER KAMPF.\n",
-    "date"  : ["2016-01-16T19:20:15+01:00", "2017-03-20T22:19:41+02:00"]
-  }, {
-    "id"    : "2",
-    "link"  : "memo",
-    "title" : "Zur&uuml;ck zur Natur",
-    "short" : "Langsam komme ich wieder zu meiner Natur und mach mir weniger Gedanken &uuml;ber das Geplante...",
-    "body"  : "Leider hat mich der Beginn des Textens nicht dazu gebracht, mein Vorhaben kontinuierlich zu tun. Wenn die Routine anfängt, denkt man nicht wirklich &uuml;ber den zur Gewohnheit gewordenen Akt nach.\n\nNun stehe ich wieder da mit drei weiteren Notzisammlungen weniger und bin dementsprechend einige Erinnerungen, welche ich f&uuml;r die Ewigkeit behalten wollte, leichter geworden. Langsam komme ich wieder zu meiner Natur und mach mir weniger Gedanken &uuml;ber das Geplante und Gezwungene.\n\nMeine fast aufgel&ouml;ste Blase hat mich sowohl k&ouml;rperlich als auch geistlich zu einem Wrack gemacht.\n",
-    "date"  : ["2015-04-21T06:51:39+02:00", "2017-03-28T05:17:11+01:00"]
-  }, {
-    "id"    : "1",
-    "link"  : "memo",
-    "title" : "Memorandum",
-    "short" : "In erster Linie geht es mir immer darum meine Gedanken zu ordnen um meine Projekte weiter voran...",
-    "body"  : "Ich habe beschlossen ein Memorandum zu f&uuml;hren. In erster Linie geht es mir immer darum meine Gedanken zu ordnen um meine Projekte weiter voran zu bringen. Aus bestimmten Gr&uuml;nden schaffe ich es nicht meine Ideen diszipliniert zu verfolgen und mit einem gewissen Ehrgeiz zu vollenden.\n\nEs lag meist daran dass ich auf verschiedene Medien verteilt aufgezeichnet habe. Hier und da sind mir meine Utensilien zur Aufzeichnung, bzw. die Aufzeichnungen selbst, ob Buch, Computer oder gar Projektmappen, abhanden gekommen. Nun bin ich 27 Jahre alt und habe vor mein Projekt mit der k&uuml;nstlichen Intelligenz, mit dem Anttritt meines 28 Lebenalters, zu starten. Bis dahin muss ich alles vorbereiten und mit der Entwicklung starten, um mit 28 damit praktische Erfahren machen zu k&ouml;nnen.\n\nDa dieses Thema so breit gef&auml;chert ist war es manchmal schwer bestimmte Fakten zusammenzufassen und auf einen Nenner zu bringen, sodass sich eine interessierte Person leicht und allgemein verst&auml;ndlich dem Thema widmen kann. Jetzt wo ich nicht viele Aufzeichnungen besitze und dennoch mit der Idee fortschreite, bin ich gezwungen andere Wege und Mittel zu finden, wie ich vorbeugen kann meine Memoranden zu verlieren.\n\nAuf den Medien verteilt waren viele dieser Notizen zwar verstreut, dennoch eng miteinander verkn&uuml;pft. Vielleicht f&uuml;r den Finder von solch lachhafter Zugeh&ouml;rigkeit, so dass ich zu Hause in meinem Bett ruhig schlafen kann.\n",
-    "date"  : ["2015-01-09T17:08:14+02:00", "2017-03-29T06:38:03+02:00"]
-  }]
+  "data": [
+    {
+      "id": "9",
+      "link": "memo",
+      "title": "Zweckentfremdete Meinungs&auml;u&szlig;erung",
+      "short": "Wenn die Meinung Anderer erw&uuml;nscht ist dann ist es von den &auml;u&szlig;ernden...",
+      "body": "Wenn die Meinung Anderer erw&uuml;nscht ist dann ist es von den &auml;u&szlig;ernden Gegen&uuml;ber nicht angebracht durch anderweitig spontan-stimulierte Reize abzulenken, um sich dem gestellten Thema im Endeffekt dann doch zu entziehen. Schlimmer noch; durch insistierte Gegenfragen, welche &uuml;berhaupt der genaueren Bestimmung einer Grundsatzfrage dienen sollten, damit auf die Denkweise verdeutlicht, Leitgedanken und Pr&auml;zisierung der Problematik verfehlt zu haben. An der Thematik vorbeigelenkt tragen die Initiatoren mit ihren Veranschaulichungen somit zur Zweckentfremdung bei, und den eigentlichen Gespr&auml;chstoff anf&auml;lliger auf weitere Entfremdung.\n",
+      "date": [
+        "2017-05-07T05:25:18+02:00",
+        "2020-12-14T05:18:31+01:00"
+      ]
+    },
+    {
+      "id": "8",
+      "link": "memo",
+      "title": "Erfolgssinn",
+      "short": "Nicht nur die Quantität ist ein Faktor der Erfolgsbemessung, sondern auch die Qualität. Steigt...",
+      "body": "Nicht nur die Quantität ist ein Faktor der Erfolgsbemessung, sondern auch die Qualität. Steigt die Quantität bei gleichbleibender Qualität so ist der Erfolg demensprechend geringer zu bemessen. Jedes System wird fortschreitend komplexer. Hinkt einer der Q-Faktoren bei steigender Komplexität nach, so geht es einher mit dem subjektiven Gefühl des sinkenden Erfolgs.\n",
+      "date": [
+        "2016-12-16T20:26:35+01:00",
+        "2017-03-29T04:28:51+02:00"
+      ]
+    },
+    {
+      "id": "5",
+      "link": "memo",
+      "title": "F&uuml;r das Gute k&auml;mpfen",
+      "short": "Gl&auml;ubige, die Streit suchen und gegen die Natur kämpfen, dürfen sich auch religiös nennen...",
+      "body": "_Gl&auml;ubige_, die Streit suchen und gegen die Natur kämpfen, dürfen sich religiös nennen, ...ja. Weil sie den Teufel an die Wand malen. Denn wo es keinen Teufel gibt, existiert auch kein Gott. Es muss der Teufel an die Wand gemalt werden, damit geglaubt wird für das Gute zu kämpfen. Die Natur wird es aber zurückzahlen, so wie bei den Dummenheiten, die die Menscheit schon vor unserer Zeit geleistet hat. Und sie werden wieder in der Minderheit landen.\n\nWorunter sie eigentlich leiden ist der Mangel an Perspektiven, weil sie nicht verstehen. So wurden sie großgezogen, für Unwissen und gegen Wissen zu kämpfen um Dummheit zu verbreiten. Verstehen müssen sie nicht, weil sie es nicht können. Deshalb macht es auch keinen Sinn darüber zu streiten dass sie sich mit der Materie, hier Wissensaneignung gemeint, auseinandersetzen sollten.\n\nViel glück bei dem Kampf. Es ist EUER KAMPF.\n",
+      "date": [
+        "2016-01-16T19:20:15+01:00",
+        "2017-03-20T22:19:41+02:00"
+      ]
+    },
+    {
+      "id": "2",
+      "link": "memo",
+      "title": "Zur&uuml;ck zur Natur",
+      "short": "Langsam komme ich wieder zu meiner Natur und mach mir weniger Gedanken &uuml;ber das Geplante...",
+      "body": "Leider hat mich der Beginn des Textens nicht dazu gebracht, mein Vorhaben kontinuierlich zu tun. Wenn die Routine anfängt, denkt man nicht wirklich &uuml;ber den zur Gewohnheit gewordenen Akt nach.\n\nNun stehe ich wieder da mit drei weiteren Notzisammlungen weniger und bin dementsprechend einige Erinnerungen, welche ich f&uuml;r die Ewigkeit behalten wollte, leichter geworden. Langsam komme ich wieder zu meiner Natur und mach mir weniger Gedanken &uuml;ber das Geplante und Gezwungene.\n\nMeine fast aufgel&ouml;ste Blase hat mich sowohl k&ouml;rperlich als auch geistlich zu einem Wrack gemacht.\n",
+      "date": [
+        "2015-04-21T06:51:39+02:00",
+        "2017-03-28T05:17:11+01:00"
+      ]
+    },
+    {
+      "id": "1",
+      "link": "memo",
+      "title": "Memorandum",
+      "short": "In erster Linie geht es mir immer darum meine Gedanken zu ordnen um meine Projekte weiter voran...",
+      "body": "Ich habe beschlossen ein Memorandum zu f&uuml;hren. In erster Linie geht es mir immer darum meine Gedanken zu ordnen um meine Projekte weiter voran zu bringen. Aus bestimmten Gr&uuml;nden schaffe ich es nicht meine Ideen diszipliniert zu verfolgen und mit einem gewissen Ehrgeiz zu vollenden.\n\nEs lag meist daran dass ich auf verschiedene Medien verteilt aufgezeichnet habe. Hier und da sind mir meine Utensilien zur Aufzeichnung, bzw. die Aufzeichnungen selbst, ob Buch, Computer oder gar Projektmappen, abhanden gekommen. Nun bin ich 27 Jahre alt und habe vor mein Projekt mit der k&uuml;nstlichen Intelligenz, mit dem Anttritt meines 28 Lebenalters, zu starten. Bis dahin muss ich alles vorbereiten und mit der Entwicklung starten, um mit 28 damit praktische Erfahren machen zu k&ouml;nnen.\n\nDa dieses Thema so breit gef&auml;chert ist war es manchmal schwer bestimmte Fakten zusammenzufassen und auf einen Nenner zu bringen, sodass sich eine interessierte Person leicht und allgemein verst&auml;ndlich dem Thema widmen kann. Jetzt wo ich nicht viele Aufzeichnungen besitze und dennoch mit der Idee fortschreite, bin ich gezwungen andere Wege und Mittel zu finden, wie ich vorbeugen kann meine Memoranden zu verlieren.\n\nAuf den Medien verteilt waren viele dieser Notizen zwar verstreut, dennoch eng miteinander verkn&uuml;pft. Vielleicht f&uuml;r den Finder von solch lachhafter Zugeh&ouml;rigkeit, so dass ich zu Hause in meinem Bett ruhig schlafen kann.\n",
+      "date": [
+        "2015-01-09T17:08:14+02:00",
+        "2017-03-29T06:38:03+02:00"
+      ]
+    }
+  ]
 }
