@@ -24,7 +24,5 @@ export default {
       .fetch()
     return { memos }
   }
-  // ,
-  // transitions: 'fade'
 }
 </script>

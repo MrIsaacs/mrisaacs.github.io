@@ -13,20 +13,14 @@
         <nuxt-content :document="article" />
       </p>
     </div>
-    <ShimmerLayer />
   </div>
 </template>
 
 <script>
-import ShimmerLayer from '~/components/ShimmerLayer.vue'
-
 export default {
-  components: { ShimmerLayer },
   async asyncData ({ $content }) {
     const article = await $content('werdegang').fetch()
     return { article }
   }
-  // ,
-  // transitions: 'fade'
 }
 </script>

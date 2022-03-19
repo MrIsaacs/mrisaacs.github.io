@@ -22,7 +22,5 @@ export default {
     const memo = await $content('memos', params.slug).fetch()
     return { memo }
   }
-  // ,
-  // transitions: 'fade'
 }
 </script>
