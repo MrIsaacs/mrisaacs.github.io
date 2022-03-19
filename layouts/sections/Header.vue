@@ -1,0 +1,56 @@
+<template>
+  <div id="header">
+    <div class="container">
+      <div class="three columns">
+        <div class="logo">
+          <p>MrIsaacs</p>
+        </div>
+      </div>
+      <div class="nine columns">
+        <div class="navbar-spacer" />
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li
+              v-for="(item, index) in menu"
+              :key="index"
+            >
+              <NuxtLink :to="item.url">
+                {{ item.title }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="mob nine columns u-pull-right">
+        <a id="menu-bar" class="menu-bar u-pull-right">
+          <span class="bar bar1" />
+          <span class="bar bar2" />
+          <span class="bar bar3" />
+        </a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Header',
+  data () {
+    return {
+      menu: [{
+        title: 'startseite',
+        url: '/'
+      }, {
+        title: 'memos',
+        url: '/memos'
+      }, {
+        title: 'zitate',
+        url: '/quotes'
+      }, {
+        title: 'projekte',
+        url: '/projects'
+      }]
+    }
+  }
+}
+</script>
