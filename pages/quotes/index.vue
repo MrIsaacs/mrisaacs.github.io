@@ -31,15 +31,6 @@ export default {
         { hid: 'description', name: 'description', content: 'Eine Kollektion von Zitaten.' }
       ]
     }
-  },
-  methods: {
-    track () {
-      this.$gtag.pageview({
-        page_title: 'Zitatenliste',
-        page_path: '/quotes',
-        page_location: 'https://mrisaacs.org/quotes'
-      })
-    }
   }
 }
 </script>

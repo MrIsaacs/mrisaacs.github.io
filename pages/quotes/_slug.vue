@@ -19,7 +19,9 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const quote = await $content('quotes', params.slug).without(['excerpt']).fetch()
+    const quote = await $content('quotes', params.slug).without(['excerpt'])
+      // .surrounding('quotes').fetch()
+      .fetch()
     return { quote }
   },
   head () {
@@ -28,15 +30,6 @@ export default {
       meta: [
         { hid: 'description', name: 'description', content: this.quote.description }
       ]
-    }
-  },
-  methods: {
-    track () {
-      this.$gtag.pageview({
-        page_title: `${this.quote.category}: ${this.quote.title}`,
-        page_path: this.quote.path,
-        page_location: `https://mrisaacs.org${this.quote.path}`
-      })
     }
   }
 }

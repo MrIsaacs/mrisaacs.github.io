@@ -31,15 +31,6 @@ export default {
         { hid: 'description', name: 'description', content: 'Eine Kollektion von Memoranden.' }
       ]
     }
-  },
-  methods: {
-    track () {
-      this.$gtag.pageview({
-        page_title: 'Memoliste',
-        page_path: this.memos.path,
-        page_location: 'https://mrisaacs.org/memos'
-      })
-    }
   }
 }
 </script>

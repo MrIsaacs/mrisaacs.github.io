@@ -21,15 +21,6 @@ export default {
   async asyncData ({ $content }) {
     const article = await $content('werdegang').fetch()
     return { article }
-  },
-  methods: {
-    track () {
-      this.$gtag.pageview({
-        page_title: `${this.quote.title}`,
-        page_path: this.quote.path,
-        page_location: `https://mrisaacs.org${this.quote.path}`
-      })
-    }
   }
 }
 </script>
