@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1647711236",layout:"default",error:a,serverRendered:true,routePath:"\u002Fmemos\u002Ffuer-das-gute-kaempfen",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"64b0c590"}}}}(null));
