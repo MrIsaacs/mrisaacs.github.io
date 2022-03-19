@@ -274,24 +274,32 @@ li.icon.github:before {
 .main-article {
   padding-left: 30px; }
 .main-article div > p {
-  margin: 0px 0px 15px;
   font-size: 1.28rem;
   line-height: 1.7em; }
 #main-date {
+  margin-bottom: 1.5rem;
   border-bottom: 1px solid #ddd; }
 #main-body blockquote {
   border-left: 4px solid #ddd;
   margin-left: 10px;
   padding-left: 15px;
   color: #aaa; }
+.short-article {
+  height: 100px;
+  margin-top: 2rem; }
 .short-article h3 a {
   color: #222;
   font-size: 1.96rem; }
 .short-article a:hover {
   color: #8f0000; }
 .short-article p {
+  margin-bottom: 0;
   font-size: 1.15rem;
   line-height: 1.7em; }
+.short-article:nth-child(3n+1) {
+  margin-left: 0; }
+.short-article:last-child {
+  margin-bottom: 1.5rem; }
 
 /* Timeline */
 div.item {
