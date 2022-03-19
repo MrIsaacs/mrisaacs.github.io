@@ -23,6 +23,14 @@ export default {
       .sortBy('position', 'desc')
       .fetch()
     return { memos }
+  },
+  head () {
+    return {
+      title: 'Memoliste',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Eine Kollektion von Memoranden.' }
+      ]
+    }
   }
 }
 </script>

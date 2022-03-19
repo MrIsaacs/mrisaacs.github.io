@@ -21,6 +21,14 @@ export default {
   async asyncData ({ $content, params }) {
     const project = await $content('projects', 'projekte').fetch()
     return { project }
+  },
+  head () {
+    return {
+      title: `${this.project.title}`,
+      meta: [
+        { hid: 'description', name: 'description', content: this.project.description }
+      ]
+    }
   }
 }
 </script>

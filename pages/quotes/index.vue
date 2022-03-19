@@ -23,6 +23,14 @@ export default {
       .sortBy('position', 'desc')
       .fetch()
     return { quotes }
+  },
+  head () {
+    return {
+      title: 'Zitatenliste',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Eine Kollektion von Zitaten.' }
+      ]
+    }
   }
 }
 </script>

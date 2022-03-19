@@ -21,6 +21,14 @@ export default {
   async asyncData ({ $content, params }) {
     const memo = await $content('memos', params.slug).fetch()
     return { memo }
+  },
+  head () {
+    return {
+      title: `${this.memo.category}: ${this.memo.title}`,
+      meta: [
+        { hid: 'description', name: 'description', content: this.memo.description }
+      ]
+    }
   }
 }
 </script>
