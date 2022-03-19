@@ -1,6 +1,7 @@
 ---
 title: Konfliktvermeidung
 description: 'Das Ich verzichtet auf diese ihm zustehenden Funktionen, um nicht eine neuerliche Verdrängung vornehmen...'
+category: Quotes
 createdAt: '2016-05-11T07:00:03+02:00'
 updatedAt: '2017-03-28T07:46:09+02:00'
 position: 2

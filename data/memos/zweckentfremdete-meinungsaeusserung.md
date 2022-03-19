@@ -1,6 +1,7 @@
 ---
 title: Zweckentfremdete Meinungsäußerung
 description: 'Ist die Meinung Anderer erwünscht, dann ist es von den äußernden...'
+category: Memo
 createdAt: '2017-05-07T05:25:18+02:00'
 updatedAt: '2020-12-15T19:15:43+01:00'
 position: 9

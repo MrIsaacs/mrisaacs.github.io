@@ -1,6 +1,7 @@
 ---
 title: Lerning/Change Rate
 description: 'Change is the end result of all true learning. Change involves three things: First, a...'
+category: Quotes
 createdAt: '2016-02-06T02:00:21+02:00'
 position: 1
 ---

@@ -1,6 +1,7 @@
 ---
 title: Aufmerksamkeitsstörung
 description: 'The great Russian physiologist Ivan Pavllov trained dogs by always ringing a bell before he presented...'
+category: Quotes
 createdAt: '2016-05-27T05:06:08+02:00'
 position: 9
 ---

@@ -1,6 +1,7 @@
 ---
 title: Humanity's problems
 description: "All of humanity's problems stem from man's inability to sit quietly in a room alone."
+category: Quotes
 createdAt: '2020-10-17T08:36:50+02:00'
 updatedAt: '2020-10-17T10:10:18+02:00'
 position: 14

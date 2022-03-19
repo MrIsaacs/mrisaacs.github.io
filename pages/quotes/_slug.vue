@@ -21,6 +21,14 @@ export default {
   async asyncData ({ $content, params }) {
     const quote = await $content('quotes', params.slug).without(['excerpt']).fetch()
     return { quote }
+  },
+  head () {
+    return {
+      title: `Zitat: ${this.quote.title}`,
+      meta: [
+        { hid: 'description', name: 'description', content: this.quote.description }
+      ]
+    }
   }
 }
 </script>

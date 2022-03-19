@@ -1,6 +1,7 @@
 ---
 title: Multithreading
 description: "As a human being, you're multithreaded. You can type with multiple fingers, you can drive and hold..."
+category: Quotes
 createdAt: '2016-05-23T20:38:29+02:00'
 updatedAt: '2017-03-28T09:16:25+02:00'
 position: 8

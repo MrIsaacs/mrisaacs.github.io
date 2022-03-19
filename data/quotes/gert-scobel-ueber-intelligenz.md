@@ -1,6 +1,7 @@
 ---
 title: Gert Scobel über Intelligenz
 description: 'Immer mal wieder geht es im deutschen Fernsehen um das Gehirn. Doch selten so regelmäßig und geistreich, wie in der...'
+category: Quotes
 createdAt: '2016-07-28T15:44:02+02:00'
 updatedAt: '2019-11-28T00:11:59+01:00'
 position: 12

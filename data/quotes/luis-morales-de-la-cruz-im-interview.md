@@ -1,6 +1,7 @@
 ---
 title: Luis Morales de la Cruz im Interview
 description: 'Man muss viel Farbe verbrauchen, um seine eigene Mischung zu finden.'
+category: Quotes
 createdAt: '2019-11-27T23:01:34+01:00'
 updatedAt: '2019-11-28T00:36:19+01:00'
 position: 13

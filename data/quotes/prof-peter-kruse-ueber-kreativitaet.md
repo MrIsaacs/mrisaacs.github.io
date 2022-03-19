@@ -1,6 +1,7 @@
 ---
 title: Prof. Peter Kruse über Kreativität
 description: 'Ein Ding was sie immer tun können, also sie können ja nicht wirklich die...'
+category: Quotes
 createdAt: '2016-05-25T17:04:48+02:00'
 updatedAt: '2016-06-26T13:26:19+02:00'
 position: 7

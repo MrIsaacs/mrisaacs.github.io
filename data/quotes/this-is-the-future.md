@@ -1,6 +1,7 @@
 ---
 title: This is the future
 description: 'We are moving to a world where normal ordinary folks have now access to all the same information...'
+category: Quotes
 createdAt: '2021-01-28T17:09:17+01:00'
 updatedAt: '2021-01-28T17:32:46+01:00'
 position: 15

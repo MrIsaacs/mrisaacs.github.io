@@ -1,6 +1,7 @@
 ---
 title: Memorandum
 description: 'In erster Linie geht es mir immer darum meine Gedanken zu ordnen um meine Projekte weiter voran...'
+category: Memo
 createdAt: '2015-01-09T17:08:14+02:00'
 updatedAt: '2017-03-29T06:38:03+02:00'
 position: 1

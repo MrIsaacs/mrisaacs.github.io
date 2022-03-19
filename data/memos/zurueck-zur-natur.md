@@ -1,6 +1,7 @@
 ---
 title: Zurück zur Natur
 description: 'Langsam komme ich wieder zu meiner Natur und mach mir weniger Gedanken über das Geplante...'
+category: Memo
 createdAt: '2015-04-21T06:51:39+02:00'
 updatedAt: '2017-03-28T05:17:11+01:00'
 position: 2

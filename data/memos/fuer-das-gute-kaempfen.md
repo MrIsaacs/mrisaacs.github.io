@@ -1,6 +1,7 @@
 ---
 title: Für das Gute kämpfen
 description: 'Gläubige, die Streit suchen und gegen die Natur kämpfen, dürfen sich auch religiös nennen...'
+category: Memo
 createdAt: '2016-01-16T19:20:15+01:00'
 updatedAt: '2017-03-20T22:19:41+02:00'
 position: 5

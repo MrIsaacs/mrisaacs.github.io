@@ -1,6 +1,7 @@
 ---
 title: Projekte
 description: 'Projekte'
+category: Project
 createdAt: '2018-12-11T11:52:13+01:00'
 updatedAt: '2019-01-05T03:37:15+01:00'
 position: 1
