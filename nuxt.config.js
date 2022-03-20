@@ -49,8 +49,6 @@ export default {
   moment: {
     defaultLocale: 'de',
     locales: ['de']
-    // ,
-    // plugin: false
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -61,6 +59,7 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
+    apiPrefix: 'api',
     dir: 'data/',
     liveEdit: false
   },
