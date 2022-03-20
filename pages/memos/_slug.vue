@@ -29,6 +29,15 @@ export default {
         { hid: 'description', name: 'description', content: this.memo.description }
       ]
     }
+  },
+  methods: {
+    track () {
+      this.$gtag.pageview({
+        page_title: `${this.memo.category}: ${this.memo.title}`,
+        page_path: this.memo.path,
+        page_location: `https://mrisaacs.org${this.memo.path}`
+      })
+    }
   }
 }
 </script>

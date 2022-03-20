@@ -20,7 +20,23 @@
 export default {
   async asyncData ({ $content }) {
     const article = await $content('werdegang').fetch()
+
+    // const ga = await $ga
+    // await $ga.page('/')
+
     return { article }
+  },
+  mounted () {
+    // this.track()
+  },
+  methods: {
+    track () {
+      // this.$ga.page('/')
+      //   page_title: `${this.quote.title}`,
+      //   page_path: this.quote.path,
+      //   page_location: `https://mrisaacs.org${this.quote.path}`
+      // })
+    }
   }
 }
 </script>

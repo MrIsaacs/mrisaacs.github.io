@@ -31,6 +31,15 @@ export default {
         { hid: 'description', name: 'description', content: 'Eine Kollektion von Memoranden.' }
       ]
     }
+  },
+  methods: {
+    track () {
+      this.$gtag.pageview({
+        page_title: this.project.title,
+        page_path: this.project.path,
+        page_location: `https://mrisaacs.org${this.project.path}`
+      })
+    }
   }
 }
 </script>
