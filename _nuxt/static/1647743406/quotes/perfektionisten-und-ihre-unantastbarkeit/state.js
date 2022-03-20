@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1647743406",layout:"default",error:a,serverRendered:true,routePath:"\u002Fquotes\u002Fperfektionisten-und-ihre-unantastbarkeit",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"2f7155b8"}}}}(null));
