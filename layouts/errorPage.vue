@@ -12,12 +12,10 @@
 </template>
 
 <script>
-import Header from '@/layouts/sections/Header.vue'
 import Footer from '@/layouts/sections/Footer.vue'
 
 export default {
   components: {
-    Header,
     Footer
   }
 }
