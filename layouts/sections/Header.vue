@@ -3,7 +3,11 @@
     <div class="container">
       <div class="three columns">
         <div class="logo">
-          <p>MrIsaacs</p>
+          <p>
+            <NuxtLink :to="menu.logo.url">
+              {{ menu.logo.title }}
+            </NuxtLink>
+          </p>
         </div>
       </div>
       <div class="nine columns">
@@ -11,7 +15,7 @@
         <nav id="navbar" class="navbar">
           <ul>
             <li
-              v-for="(item, index) in menu"
+              v-for="(item, index) in menu.navigation"
               :key="index"
             >
               <NuxtLink :to="item.url">
@@ -37,19 +41,25 @@ export default {
   name: 'Header',
   data () {
     return {
-      menu: [{
-        title: 'startseite',
-        url: '/'
-      }, {
-        title: 'memos',
-        url: '/memos'
-      }, {
-        title: 'zitate',
-        url: '/quotes'
-      }, {
-        title: 'projekte',
-        url: '/projects'
-      }]
+      menu: {
+        logo: {
+          title: 'MrIsaacs',
+          url: '/'
+        },
+        navigation: [{
+          title: 'startseite',
+          url: '/'
+        }, {
+          title: 'memos',
+          url: '/memos'
+        }, {
+          title: 'zitate',
+          url: '/quotes'
+        }, {
+          title: 'projekte',
+          url: '/projects'
+        }]
+      }
     }
   }
 }
