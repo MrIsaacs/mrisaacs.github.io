@@ -10,9 +10,15 @@
           </p>
         </div>
       </div>
-      <div class="nine columns">
+      <div
+        class="nine columns"
+        :class="{ 'show-menu': !show }"
+      >
         <div class="navbar-spacer" />
-        <nav id="navbar" class="navbar">
+        <nav
+          id="navbar"
+          class="navbar"
+        >
           <ul>
             <li
               v-for="(item, index) in menu.navigation"
@@ -26,7 +32,11 @@
         </nav>
       </div>
       <div class="mob nine columns u-pull-right">
-        <a id="menu-bar" class="menu-bar u-pull-right">
+        <a
+          id="menu-bar"
+          class="menu-bar u-pull-right"
+          @click="showMenu()"
+        >
           <span class="bar bar1" />
           <span class="bar bar2" />
           <span class="bar bar3" />
@@ -41,6 +51,7 @@ export default {
   name: 'Header',
   data () {
     return {
+      show: true,
       menu: {
         logo: {
           title: 'MrIsaacs',
@@ -60,6 +71,12 @@ export default {
           url: '/projects'
         }]
       }
+    }
+  },
+  methods: {
+    showMenu () {
+      console.log('showMenu')
+      this.show = !this.show
     }
   }
 }
