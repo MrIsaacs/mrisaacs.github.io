@@ -1,9 +1,11 @@
 ---
-title: Gemeinschaftsidentität
-description: 'The Consciousness of community has to be kept alive through manipulation of its symbols.'
-category: Quotes
-createdAt: '2016-05-22T03:37:27+02:00'
-updatedAt: '2017-03-28T11:43:47+02:00'
+title: "Gemeinschaftsidentität"
+description: "The consciousness of community has to be kept alive through manipulation of its symbols."
+category: "Quotes"
+createdAt: "2016-05-22T03:37:27+02:00"
+updatedAt:
+  - "2017-03-28T11:43:47+02:00"
+  - "2023-07-04T15:41:01+02:00"
 position: 5
 ---
 

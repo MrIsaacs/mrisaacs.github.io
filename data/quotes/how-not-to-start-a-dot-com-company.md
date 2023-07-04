@@ -1,9 +1,11 @@
 ---
-title: How (not) to start a dot com company
-description: "Whenever you try to catch a wave, you're almost always too late."
-category: Quotes
-createdAt: '2021-08-05T04:42:15+02:00'
-updatedAt: '2021-08-05T13:25:21+02:00'
+title: "How (not) to start a dot com company"
+description: "People were sort of abandoning the things they were genuinely interested and trying to catch a wave. Whenever you try to catch a wave, you're almost always too late."
+category: "Quotes"
+createdAt: "2021-08-05T04:42:15+02:00"
+updatedAt:
+  - "2021-08-05T13:25:21+02:00"
+  - "2023-07-04T15:43:34+02:00"
 position: 16
 ---
 

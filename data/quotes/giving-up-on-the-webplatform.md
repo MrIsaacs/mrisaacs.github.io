@@ -1,9 +1,11 @@
 ---
-title: Giving up on the webplatform
-description: "Come on, people! If the best Front-End Engineers in the world can't make text and images work..."
-category: Quotes
-createdAt: '2021-10-29T18:05:25+02:00'
-updatedAt: '2021-10-29T19:53:57+02:00'
+title: "Giving up on the webplatform"
+description: "Come on, people! If the best Front-End Engineers in the world can't make text and images work without 5 megabytes of JavaScript, then maybe we should just give up on the web platform."
+category: "Quotes"
+createdAt: "2021-10-29T18:05:25+02:00"
+updatedAt:
+  - "2021-10-29T19:53:57+02:00"
+  - "2023-07-04T15:43:26+02:00"
 position: 19
 ---
 

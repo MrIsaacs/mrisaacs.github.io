@@ -1,8 +1,11 @@
 ---
-title: Werdegang
-description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
-createdAt: '2019-03-20T12:59:23+01:00'
-updatedAt: '2019-04-05T09:38:55+02:00'
+title: "Werdegang"
+navigation: false
+description: "Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS."
+createdAt: "2019-03-20T12:59:23+01:00"
+updatedAt:
+  - "2019-04-05T09:38:55+02:00"
+  - "2023-07-04T11:28:07+02:00"
 ---
 
 ## Berufserfahrung:

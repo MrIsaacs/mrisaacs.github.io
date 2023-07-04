@@ -1,8 +1,9 @@
 ---
-title: Das Kleingedruckte
-description: 'Gleichgesinnte zu erschaffen ist das Ultimatum wenn der Vertrag kurzzeitig nicht eingehalten werden kann. Zumindest...'
-category: Quotes
-createdAt: '2014-02-14T23:08:56+01:00'
+title: "Das Kleingedruckte"
+description: "Gleichgesinnte zu erschaffen ist das Ultimatum wenn der Vertrag kurzzeitig nicht eingehalten werden kann."
+category: "Quotes"
+createdAt: "2014-02-14T23:08:56+01:00"
+updatedAt: "2023-07-04T15:39:39+02:00"
 position: 6
 ---
 

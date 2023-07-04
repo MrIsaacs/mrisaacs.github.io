@@ -1,8 +1,9 @@
 ---
-title: Perfektionisten und ihre Unantastbarkeit
-description: 'Es geht dem Perfektionisten nicht um die Perfektion an sich, sondern um die...'
-category: Quotes
-createdAt: '2016-07-28T15:44:02+02:00'
+title: "Perfektionisten und ihre Unantastbarkeit"
+description: "Es geht dem Perfektionisten nicht um die Perfektion an sich, sondern um die damit verbundene bombensichere Unantastbarkeit."
+category: "Quotes"
+createdAt: "2016-07-28T15:44:02+02:00"
+updatedAt: "2023-07-04T15:49:52+02:00"
 position: 11
 ---
 

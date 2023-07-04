@@ -1,9 +1,11 @@
 ---
-title: Prof. Peter Kruse über Kreativität
-description: 'Ein Ding was sie immer tun können, also sie können ja nicht wirklich die...'
-category: Quotes
-createdAt: '2016-05-25T17:04:48+02:00'
-updatedAt: '2016-06-26T13:26:19+02:00'
+title: "Prof. Peter Kruse über Kreativität"
+description: "Ein Ding was sie immer tun können, also sie können ja nicht wirklich die Kreativität und Innovationsfähigkeit der Mitarbeiter fördern. Da muss man ja schon mal sagen bitte unterscheiden sie bei allem was sie tun zwischen indirekten Variablen und direkten Variablen. Das ist sehr wichtig."
+category: "Quotes"
+createdAt: "2016-05-25T17:04:48+02:00"
+updatedAt:
+  - "2016-06-26T13:26:19+02:00"
+  - "2023-07-04T15:50:35+02:00"
 position: 7
 ---
 

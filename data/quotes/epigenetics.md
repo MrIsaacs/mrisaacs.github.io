@@ -1,8 +1,9 @@
 ---
-title: Epigenetics
-description: ''
-category: Quotes
-createdAt: '2016-03-17T09:59:21+02:00'
+title: "Epigenetics"
+description: ""
+category: "Quotes"
+createdAt: "2016-03-17T09:59:21+02:00"
+updatedAt: "2023-07-04T15:39:41+02:00"
 position: 3
 ---
 

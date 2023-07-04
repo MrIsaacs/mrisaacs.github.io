@@ -1,8 +1,9 @@
 ---
-title: Gesetze sind Konventionen
-description: 'In enger Verbindung zu den Demokraten stand die philosophische Aufklärungsbewegung der Sophisten...'
-category: Quotes
-createdAt: '2016-06-24T14:42:03+02:00'
+title: "Gesetze sind Konventionen"
+description: "In enger Verbindung zu den Demokraten stand die philosophische Aufklärungsbewegung der Sophisten."
+category: "Quotes"
+createdAt: "2016-06-24T14:42:03+02:00"
+updatedAt: "2023-07-04T15:41:59+02:00"
 position: 10
 ---
 

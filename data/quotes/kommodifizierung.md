@@ -1,9 +1,11 @@
 ---
-title: Kommodifizierung
-description: 'In der Informationswissenschaft bedeutet Kommodifizierung die Betrachtung von Informationsobjekten als...'
-category: Quotes
-createdAt: '2016-05-19T18:57:45+02:00'
-updatedAt: '2017-03-28T09:04:54+02:00'
+title: "Kommodifizierung"
+description: "In der Informationswissenschaft bedeutet Kommodifizierung die Betrachtung von Informationsobjekten als Waren, aus denen Informationsprodukte hergestellt werden können, für deren Nutzung Gebühren erhoben und die auf Informationsmärkten gehandelt werden können."
+category: "Quotes"
+createdAt: "2016-05-19T18:57:45+02:00"
+updatedAt:
+  - "2017-03-28T09:04:54+02:00"
+  - "2023-07-04T15:44:56+02:00"
 position: 4
 ---
 

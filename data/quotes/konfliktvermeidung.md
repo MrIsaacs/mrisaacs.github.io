@@ -1,9 +1,11 @@
 ---
-title: Konfliktvermeidung
-description: 'Das Ich verzichtet auf diese ihm zustehenden Funktionen, um nicht eine neuerliche Verdrängung vornehmen...'
-category: Quotes
-createdAt: '2016-05-11T07:00:03+02:00'
-updatedAt: '2017-03-28T07:46:09+02:00'
+title: "Konfliktvermeidung"
+description: "Das Ich verzichtet auf diese ihm zustehenden Funktionen, um nicht eine neuerliche Verdrängung vornehmen zu müssen, um einen Konflikt mit dem Es auszuweichen."
+category: "Quotes"
+createdAt: "2016-05-11T07:00:03+02:00"
+updatedAt:
+  - "2017-03-28T07:46:09+02:00"
+  - "2023-07-04T15:46:23+02:00"
 position: 2
 ---
 

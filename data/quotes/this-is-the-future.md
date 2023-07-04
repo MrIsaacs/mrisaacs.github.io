@@ -1,9 +1,11 @@
 ---
-title: This is the future
-description: 'We are moving to a world where normal ordinary folks have now access to all the same information...'
-category: Quotes
-createdAt: '2021-01-28T17:09:17+01:00'
-updatedAt: '2021-01-28T17:32:46+01:00'
+title: "This is the future"
+description: "We are moving to a world where normal ordinary folks have now access to all the same information as institutional organized capital and they will come to many of the same conclusions."
+category: "Quotes"
+createdAt: "2021-01-28T17:09:17+01:00"
+updatedAt:
+  - "2021-01-28T17:32:46+01:00"
+  - "2023-07-04T15:51:11+02:00"
 position: 15
 ---
 
