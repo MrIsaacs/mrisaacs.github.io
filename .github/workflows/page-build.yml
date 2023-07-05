@@ -33,7 +33,7 @@ jobs:
           rm -R manic/pages
           rm -R manic/public
           rm -R manic/301.json
-          mv -v manic/* .
+          cp -r manic/* . && rm -r manic/*
       - name: Install Manic's dependencies
         run: |
           npm install
