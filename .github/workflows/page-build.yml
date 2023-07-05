@@ -29,6 +29,7 @@ jobs:
 
       - name: Access cloned repository content
         run: |
+          rm -R manic/config
           rm -R manic/content
           rm -R manic/pages
           rm -R manic/public
