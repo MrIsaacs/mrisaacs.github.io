@@ -1,7 +1,7 @@
 ---
 title: "Werdegang"
 navigation: false
-description: "Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS."
+description: "Geschäftsführung, Softwareentwicklung, Qualitätssicherung, UI-Entwicklung - Analytics, Data Science, IoT, Machine Learning, Vision"
 createdAt: "2019-03-20T12:59:23+01:00"
 updatedAt:
   - "2019-04-05T09:38:55+02:00"
