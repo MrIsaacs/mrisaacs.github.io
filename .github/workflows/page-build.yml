@@ -31,6 +31,7 @@ jobs:
         run: |
           rm -R manic/config
           rm -R manic/content
+          rm -R manic/locales
           rm -R manic/pages
           rm -R manic/public
           rm -R manic/301.json
