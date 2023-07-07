@@ -1,34 +1,52 @@
-<template>
-  <div class="main-article two-thirds column">
-    <div class="article-layer">
-      <h1 id="main-title">
-        <p>{{ memo.title }}</p>
-      </h1>
-      <p id="main-date" :title="[memo.createdAt, memo.updatedAt]">
-        {{ $moment(memo.createdAt).fromNow() }},
-        <strong>update:</strong>
-        {{ $moment(memo.updatedAt).fromNow() }}
-      </p>
-      <p id="main-body">
-        <nuxt-content :document="memo" />
-      </p>
-    </div>
-  </div>
-</template>
+<script setup lang="ts">
+import moment from 'moment';
 
-<script>
-export default {
-  async asyncData ({ $content, params }) {
-    const memo = await $content('memos', params.slug).fetch()
-    return { memo }
-  },
-  head () {
-    return {
-      title: `${this.memo.category}: ${this.memo.title}`,
-      meta: [
-        { hid: 'description', name: 'description', content: this.memo.description }
-      ]
-    }
-  }
+const { name: routeName } = useRoute()
+const { t } = useI18n()
+const { $ucfirst: ucfirst } = useNuxtApp()
+
+const breakWord = (str, limit = 80) => {
+  const nString = `${str.substring(0, limit)}${str.substring(limit, limit + 10).split(' ')[0]}`
+  const l = nString.length
+  return l < limit ?
+    str :
+    `${nString}...`
 }
+
+definePageMeta({
+  pageTransition: {
+    name: 'slide-left',
+    mode: 'out-in'
+  }
+})
+
+useHead({
+  meta: [
+    {
+      hid: 'description',
+      name: 'description',
+      content: ''
+    }
+  ]
+})
 </script>
+
+<template>
+  <main>
+    <ContentDoc v-slot="{ doc }" :path="$route.path">
+      <article>
+        <header>
+          <h1>{{ doc.title }}</h1>
+          <section id="article-timestamp">
+            <i><b>{{ $t('created') }}</b></i> <time :datetime="doc.createdAt" :title="doc.createdAt">
+              {{ moment(doc.createdAt).fromNow() }}
+            </time><br class="bigScreen"/><span class="mobileScreen">, </span><i><b>{{ $t('updated') }}</b></i> <time :datetime="doc.updatedAt" :title="doc.updatedAt">
+              {{ typeof doc.updatedAt==='string' ? moment(doc.updatedAt).fromNow() : moment(doc.updatedAt[doc.updatedAt.length-1]).fromNow() }}
+            </time>
+          </section>
+        </header>
+        <ContentRenderer :value="doc" />
+      </article>
+    </ContentDoc>
+  </main>
+</template>
