@@ -1,1 +1,0 @@
-import{_ as o,a7 as i,a8 as n}from"./entry.2710d754.js";async function s(){const t=await o(()=>import("./i18n.config.b7e4b4bc.js"),[],import.meta.url).then(a=>a.default||a);return i(t)?await t():n(t)?t:{}}export{s as default};
