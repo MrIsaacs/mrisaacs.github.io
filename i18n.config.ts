@@ -8,7 +8,6 @@ export default defineI18nConfig(() => ({
     skipNuxtState: true
   },
   messages: {
-    en,
     de
   },
   parsePages: false,
